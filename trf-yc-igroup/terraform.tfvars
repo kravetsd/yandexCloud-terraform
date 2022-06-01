@@ -1,0 +1,14 @@
+igroup-name                = "this"
+igroup-image_id            = "fd82re2tpfl4chaupeuf" //ubuntu 20.04
+igroup-subnet_ids          = ["example-subnet-id"]
+igroup-allocation_policy   = ["ru-central1-a"]
+igroup-vpc_id              = "example-vpc-id"
+igroup-disk_size           = 10
+igroup-cloud_name          = "cloud-example-cloud-id"
+igroup-folder_id           = "example-folder-id"
+igroup-deletion_protection = false
+igroup-ssh_key_file        = "~/.ssh/id_rsa.pub"
+igroup-resources_cores     = 2
+igroup-resources_memory    = 2
+igroup-fixed_scale_size    = 2
+igroup-autoscale_max       = 3
